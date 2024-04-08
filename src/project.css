@@ -98,12 +98,12 @@ h1{
 }
 @media screen and (min-width:320px) and (max-width:500px){
     .nam1{
-        font-size: 85px;
+        font-size: 80px;
     }
     .nam2{
         font-size:35px ;
-        top:44px;
-        left: 30%;
+        top:40%;
+        left: 25%;
     }
     .box1,.box2,.box3{
         padding-top:50px;
@@ -121,7 +121,7 @@ h1{
     .nam2{
         font-size:40px ;
         top:85px;
-        left: 35%;
+        left: 30%;
     }
     .box1,.box2,.box3{
         padding-top:50px;
@@ -130,7 +130,7 @@ h1{
         padding-top: 50px;
     }
 }
-@media screen  and (max-width:1400px){
+@media screen  and(min-width:700px) and (max-width:1400px){
     .nam2{
         font-size:50px ;
         top:85px;
