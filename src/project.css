@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.projectover {
+    width: 100%;
+   min-height: 100vh;
+    background-color: var(--colorback);
+    padding: 1rem;
+}
+.namediv{
+    position: relative;
+    width: 100%;
+}
+.nam1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150px;
+   color: rgba(207, 184, 188, 0.2);
+}
+.nam2{
+    position: absolute;
+    font-size: 50px;
+    left: 55%;
+    top:90px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1,.box2,.box3{
+    position: relative;
+    padding-top: 150px;
+    width: 300px;
+}
+.box4{
+    position: relative;
+    
+}
+.box4{
+    padding-top: 150px;
+    width: 300px;
+}
+.pic1, .pic2,.pic3,.pic4{
+    height: 360px;
+    width: 300px;
+}
+.btn1,.btn2,.btn3,.btn4{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: cadetblue;
+    right: 100px;
+    bottom:40px;
+    border: none;
+    border-radius: 3px;
+}
+.div1,.div2,.div3,.div4{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    display: none;
+    height: 340px;
+    width: 280px;
+
+}
+.box1:hover > .div1,
+.box2:hover > .div2,
+.box3:hover > .div3,
+.box4:hover > .div4
+ {
+display: block;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+flex-direction: column;
+border: 2px solid white;
+background-color: rgba(10, 10, 10, 0.5);
+
+}
+h1{
+    color: var(--coloryellow);
+}
+.inbtn1,.inbtn2,.inbtn3,.inbtn4{
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    .nam1{
+        font-size: 85px;
+    }
+    .nam2{
+        font-size:35px ;
+        top:44px;
+        left: 30%;
+    }
+    .box1,.box2,.box3{
+        padding-top:50px;
+    }
+    .box4{
+        padding-top: 50px;
+    }
+    
+    
+}
+@media screen and (min-width:500px) and (max-width:700px) {
+    .nam1{
+        font-size: 130px;
+    }
+    .nam2{
+        font-size:40px ;
+        top:85px;
+        left: 35%;
+    }
+    .box1,.box2,.box3{
+        padding-top:50px;
+    }
+    .box4{
+        padding-top: 50px;
+    }
+}
+@media screen  and (max-width:1400px){
+    .nam2{
+        font-size:50px ;
+        top:85px;
+        left: 40%;
+    }
+    
+}

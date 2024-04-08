@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ffdfc1f.css",
+    "main.js": "/static/js/main.dbec98ab.js",
+    "static/media/petshop1.jpg": "/static/media/petshop1.5fd65532bbe9b510c9ca.jpg",
+    "static/media/img3.jpg": "/static/media/img3.079ee0edacad35b47980.jpg",
+    "static/media/proj2.jpg": "/static/media/proj2.e1a6869726ffaf6f4551.jpg",
+    "static/media/proj1.jpg": "/static/media/proj1.bf2783961fe257fb5acf.jpg",
+    "static/media/img2.jpg": "/static/media/img2.b9ef92b9ae2fb7af8794.jpg",
+    "static/media/portfolio.jpg": "/static/media/portfolio.9f9db2075a54ef9c7c76.jpg",
+    "static/media/Nithya Resume.pdf": "/static/media/Nithya Resume.b6a6f267e4e2516f70db.pdf",
+    "static/media/img1.jpg": "/static/media/img1.91852c1db2d054e0fc32.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.2ffdfc1f.css.map": "/static/css/main.2ffdfc1f.css.map",
+    "main.dbec98ab.js.map": "/static/js/main.dbec98ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ffdfc1f.css",
+    "static/js/main.dbec98ab.js"
+  ]
+}

@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overallcontent{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(36, 86, 119);
+    flex-direction: column;
+    
+}
+.photos img{
+    height: 350px;
+    width: 320px;
+    object-fit: cover;
+    margin-left: 100px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.twocontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.topic{
+    margin-bottom: 50px;
+}
+.skill{
+    color: var(--coloryellow);
+}
+.skill1{
+    font-size: 140px;
+    color: rgba(207, 184, 188, 0.2);
+}
+.skill2{
+    position: absolute;
+   top:50%;
+   /* bottom: 10px; */
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 50px;
+}
+.mail{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.content{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ttl{
+   color:var(--coloryellow);
+}
+.para{
+    padding:20px 40px;
+    color:var(--colorname2);
+}
+table{
+    color: var(--colorname2);
+}
+td{
+    text-align: left;
+    padding: 10px;
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    .skill1{
+        font-size: 100px;
+       
+    }
+    .skill2{
+        position: absolute;
+       top:50%;
+       /* bottom: 10px; */
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-size: 30px;
+    } 
+    .twocontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .photos img{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    table{
+        width: 300px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:720px) {
+    .twocontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .name1{
+        width: 100%;
+        font-size: 120px;
+    }
+    .name2{
+            font-size: 35px;
+            left: 70px;
+            top:60px;
+        }  
+        .photos img{
+            width: 300px;
+            height: 300px;
+            margin-left: 10px;
+        }
+    }

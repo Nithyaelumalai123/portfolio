@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding-top: 50px;
+    background-color: rgb(36, 86, 119);
+    
+
+}
+.topic{
+    position: relative;
+}
+.skill1{
+    font-size: 140px;
+    color: rgba(207, 184, 188, 0.2);
+}
+.skill2{
+    position: absolute;
+   top:50%;
+   /* bottom: 10px; */
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 50px;
+}
+.overall{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skill{
+    color: var(--coloryellow);
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    color: var(--colorname2);
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.design1, .design2,.design3{
+    color: var(--coloryellow);
+}
+
+.icon1,.icon2,.icon3{
+    color: white;
+    /* padding-left: 50px;
+    margin-right: 30px; */
+}
+/* <--------------------------> */
+
+.Skills_content{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.progres{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+   
+}
+.progresbar_details{
+    color: var(--colorname2);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: var(--graycolor);
+}
+.head1,.head2,.head3,.head4,.head5{
+    color: var(--coloryellow);
+}
+.bar{
+    height: 7px;
+    border-radius: 3px;
+    animation: slide 2s 1 ease-out;
+    background-color: aqua;
+}
+.bar1{
+    width: 95%;
+}
+.prog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.progres1{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+}
+.progresbar1_details{
+    color: var(--colorname2);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar1{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: var(--graycolor);
+}
+.bar{
+    height: 7px;
+    border-radius: 3px;
+    animation: slide 2s 1 ease-out;
+}
+.bar1{
+    width: 90%;
+}
+
+.progres2{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+}
+.progresbar2_details{
+    color: var(--colorname2);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar2{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: var(--graycolor);
+}
+.bar2{
+    width: 80%;
+}
+
+
+.progres3{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+
+}
+.progresbar3_details{
+    color: var(--colorname2);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar3{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+   
+    background-color: var(--graycolor);
+}
+
+.bar3{
+    width: 85%;
+}
+
+.progres4{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+
+}
+.progresbar4_details{
+    color: var(--colorname2);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar4{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+ 
+ 
+    background-color: var(--graycolor);
+}
+
+.bar4{
+    width: 85%;
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    .skill1{
+        font-size: 100px;
+       
+    }
+    .skill2{
+        position: absolute;
+       top:50%;
+       /* bottom: 10px; */
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-size: 30px;
+    }
+ .over1,.over2,.over3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    padding: 15px;
+    }
+.design2{
+    width: 320px;
+}
+.design3{
+    width: 320px;
+}
+    /* .one p{
+    width: 450px;
+    padding-bottom: 30px;
+}
+.two p{
+    padding-bottom: 20px;
+} */
+
+.progres,.progres1,.progres2,.progres3,.progres4{
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+   
+}
+
+
+}
+/* @media screen and (min-width:500px) and (max-width:800px) {
+} */
+@media screen and (max-width:1060px) {
+    .overall{
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .over1,.over2,.over3{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

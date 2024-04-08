@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: rgb(195, 219, 235); */
+    min-height: 100vh;
+    padding-bottom: 100px;
+    overflow: hidden;
+    padding-top: 10vh;
+}
+.intro{
+    /* width: 550px; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    font-size: 30px;
+    flex-direction: column;
+    padding-left: 40px;
+    color:var(--colorname2);
+    animation: slide1 2s 1 linear ;
+    
+}
+@keyframes slide1 {
+    from{
+        transform: translatex(-100%);
+    }
+    to {
+        transform: translatex(0);
+    }
+    
+}
+.change1,.change2{
+    color:var(--coloryellow);
+}
+.note{
+    font-size: 7cqmin;
+}
+.photo{
+    /* height: 450px; */
+    width:350px;
+    padding-top: 90px;
+    object-fit: cover;
+    display: flex;
+    padding-top: 90px;
+    margin-left: 120px;
+    animation: slide 2s 1 linear ;
+}
+@keyframes slide {
+    from{
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+    
+}
+
+.photo img{
+    height: 350px;
+    width: 100%;
+    border:4px solid  palevioletred;
+    border-radius: 25px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    
+}
+.photo img:hover{
+    border:10px double black;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+}
+.bt1{
+    background-color:var(--coloryellow);
+    border-radius: 5px ;
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: black;
+    border:2px solid var(--colorname2);
+}
+.bt1:hover{
+    background-color:var(--colorname2);
+}
+.bt2{
+    height: 30px;
+    width: 150px;
+    border:2px solid var(--coloryellow);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.bt2:hover{
+    background-color: var(--coloryellow);
+}
+.change2::after{
+    content: "Developer";
+    animation: alternate change 3s infinite;
+}
+@keyframes change {
+    0%{content: "Developer|";}
+    10%{content: "Develope|";}
+    15%{content: "Develop|";}
+    25%{content: "Develo|";}
+    35%{content: "Devel|";}
+    45%{content: "Deve|";}
+    55%{content: "Dev|";}
+    65%{content: "Des|";}
+    70%{content: "Desi|";}
+    77%{content: "Desig|";}
+    85%{content: "Design|";}
+    93%{content: "Designe|";}
+    100%{content: "Designer|";}   
+}
+
+
+                                                  /* media query */
+                            
+
+
+
+
+@media screen  and (min-width:320px) and (max-width:500px){
+
+    .intro{
+        display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    font-size: 10px;
+    flex-direction: column;
+    padding:10px;
+    color:var(--colorname2);
+    /* width: 550px; */
+    
+    
+    }
+    .overall{
+        min-height: 100vh;
+        overflow: hidden;
+    }
+
+    .photo{
+        height: 350px;
+        width:290px;
+        /* padding-top: 100px; */
+        object-fit: cover;
+    margin-left: 10px;
+    }
+    .photo img{
+        margin: 10px;
+        height: 350px;
+        width: 290px;
+        border:4px solid  palevioletred;
+        border-radius: 25px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+    .btn{
+        gap: 10px;
+    }
+
+    .bt1{
+        background-color:var(--coloryellow);
+        border-radius: 5px ;
+        border: none;
+        height: 30px;
+        width: 80px;
+        color: black;
+    }
+    .bt2{
+        height: 30px;
+        width: 130px;
+        border:2px solid var(--coloryellow);
+        border-radius: 5px;
+    }   
+}
+
+
+@media screen  and (min-width:500px) and (max-width:700px){
+.photo{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+}
+
+@media screen  and (min-width:700px) and (max-width:1040px){
+    .photo{
+        width: 500px;
+    }
+    /* .intro{
+        width: 600px;
+    } */
+}
+@media screen  and (min-width:1040px) and (max-width:1200px){
+    .photo{
+        width: 390px;
+    }
+}
