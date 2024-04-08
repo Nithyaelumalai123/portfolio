@@ -42,7 +42,7 @@
     /* width: 50%; */
     color: var(--colorname2);
     flex-direction: column;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 40px;
 }
 .design1, .design2,.design3{

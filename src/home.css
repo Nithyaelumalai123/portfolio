@@ -27,6 +27,7 @@
     animation: slide1 2s 1 linear ;
     
 }
+
 @keyframes slide1 {
     from{
         transform: translatex(-100%);

@@ -24,7 +24,7 @@
 .nam2{
     position: absolute;
     font-size: 50px;
-    left: 55%;
+    left: 40%;
     top:90px;
 }
 .box{
@@ -103,7 +103,7 @@ h1{
     .nam2{
         font-size:35px ;
         top:40%;
-        left: 25%;
+        left: 30%;
     }
     .box1,.box2,.box3{
         padding-top:50px;
@@ -121,7 +121,7 @@ h1{
     .nam2{
         font-size:40px ;
         top:85px;
-        left: 30%;
+        left: 35%;
     }
     .box1,.box2,.box3{
         padding-top:50px;
@@ -134,7 +134,7 @@ h1{
     .nam2{
         font-size:50px ;
         top:85px;
-        left: 40%;
+        left: 20%;
     }
     
 }
