@@ -189,6 +189,10 @@ margin-top: 20px;
         flex-wrap: wrap;
        
     }
+    .whitediv{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 @media screen  and (min-width:500px) and (max-width:800px){
     .skill1{
