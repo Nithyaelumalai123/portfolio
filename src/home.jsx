@@ -1,7 +1,8 @@
 import React from "react";
 import "./home.css";
 import image1 from "./img1.jpg";
-import image3 from './img3.jpg';
+// import image3 from './img3.jpg';
+import img4 from './img4.jpg';
 import resume from './Nithya Resume.pdf';
 class home extends React.Component {
     render() {
@@ -17,7 +18,7 @@ class home extends React.Component {
                     </div>
                 </div>
                 <div className="photo">
-                    <img src={image1}></img>
+                    <img src={img4}></img>
                 </div>
             </div>
         )

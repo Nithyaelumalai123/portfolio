@@ -27,7 +27,6 @@
     animation: slide1 2s 1 linear ;
     
 }
-
 @keyframes slide1 {
     from{
         transform: translatex(-100%);
@@ -45,7 +44,7 @@
 }
 .photo{
     /* height: 450px; */
-    width:350px;
+    width:300px;
     padding-top: 90px;
     object-fit: cover;
     display: flex;
@@ -158,7 +157,11 @@
         width:290px;
         /* padding-top: 100px; */
         object-fit: cover;
-    margin-left: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     .photo img{
         margin: 10px;
@@ -192,17 +195,17 @@
 
 @media screen  and (min-width:500px) and (max-width:700px){
 .photo{
-    width: 450px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 }
 
 @media screen  and (min-width:700px) and (max-width:1040px){
     .photo{
-        width: 500px;
+        width: 380px;
     }
     /* .intro{
         width: 600px;
